@@ -15,7 +15,7 @@ module "ses" {
 
   name         = local.name
   environment  = local.environment
-  domain       = "opsstation.ca"
+  domain       = "example.ca"
   enable_email = true
   emails       = []
   zone_id      = "XXXXXXXX7289RP"
